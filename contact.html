@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Page</title>
+        <script>
+            function sendEmail() {
+                var name = document.getElementById("name").value;
+                var email = document.getElementById("email").value;
+                var message = document.getElementById("message").value;
+
+                var subject = "New Contact Form Submission";
+                var body = "Name: " + name + "\nEmail: " + email + "\nMessage: " + message;
+
+                // Replace 'your_email@example.com' with the actual recipient email address
+                var recipientEmail = 'your_email@example.com';
+
+                var mailtoLink = 'mailto:' + recipientEmail + '?subject=' + subject + '&body=' + encodeURIComponent(body);
+
+                // Open default email client to send the email
+                window.location.href = mailtoLink;
+            }
+        </script>
+    </head>
+
+    <body>
+
+        <h2>Contact Us</h2>
+
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+
+            <br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+
+            <br>
+
+            <label for="message">Message:</label>
+            <textarea id="message" required></textarea>
+
+            <br>
+
+            <button type="button" onclick="sendEmail()">Send Message</button>
+        </form>
+
+    </body>
+
+</html>
