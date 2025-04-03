@@ -92,7 +92,7 @@ function allCertificatesData() {
             <h4 class="project-technologies">${certificate.technologies}</h4>
         </div>
         <img src="${certificate.imgUrl}" alt="img" />
-        <a href="${certificate.demoUrl}" class="certificates-link" target="_blank">View Demo</a>
+        <a href="${certificate.demoUrl}" class="certificates-link" target="_blank"><i class="ri-eye-fill"></a>
     
     `;
 
