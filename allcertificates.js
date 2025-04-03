@@ -2,7 +2,7 @@ function allCertificatesData() {
   const allCertificates = [
     {
       name: "HTML",
-      technolomplete: "HTML Certificat",
+      technologies: "HTML Certificat",
       imgUrl:
         "https://udemy-certificate.s3.amazonaws.com/image/UC-a536875f-061a-4cfa-bfb9-3dc4c249fd14.jpg",
       demoUrl:
@@ -57,6 +57,14 @@ function allCertificatesData() {
         "https://udemy-certificate.s3.amazonaws.com/image/UC-99d1f229-90a7-427c-88bb-ac1b219844ce.jpg",
     },
     {
+      name: "FRONT-END",
+      technologies: "HTML, CSS, JS depth knowledge Certificat",
+      imgUrl:
+        "images/frontend-certificates.jpg",
+      demoUrl:
+        "images/frontend-certificates.jpg",
+    },
+    {
       name: "Android Apps",
       technologies: "Android Apps Certificat",
       imgUrl:
@@ -64,7 +72,6 @@ function allCertificatesData() {
       demoUrl:
         "https://udemy-certificate.s3.amazonaws.com/image/UC-f35e9462-a8cc-4706-969f-b63a407b5268.jpg",
     },
-
     // Add other allCertificates similarly
   ];
 
@@ -85,7 +92,7 @@ function allCertificatesData() {
             <h4 class="project-technologies">${certificate.technologies}</h4>
         </div>
         <img src="${certificate.imgUrl}" alt="img" />
-        <a href="${certificate.demoUrl}" class="project-link" target="_blank">View Demo</a>
+        <a href="${certificate.demoUrl}" class="certificates-link" target="_blank">View Demo</a>
     
     `;
 
