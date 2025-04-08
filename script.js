@@ -69,7 +69,7 @@ function projectsData() {
       name: "Sundown Web Page",
       technologies: "HTML / CSS / JS / SwipperJs",
       videoUrl: "https://www.youtube.com/embed/7EgGcuql6z4?autoplay=1&controls=0&mute=1&loop=1&playlist=7EgGcuql6z4",
-      demoUrl: "https://nare846283.github.io/sundown-web-home-page/",
+      demoUrl: "https://sundown-web-home-page.vercel.app/",
       githubUrl: "https://github.com/nare846283/sundown-web-home-page",
     },
     {
@@ -83,7 +83,7 @@ function projectsData() {
       name: "ri trovi web",
       technologies: "HTML / CSS / JS / GSAP",
       videoUrl: "https://www.youtube.com/embed/GLn1_z83h1w?autoplay=1&controls=0&mute=1&loop=1&playlist=GLn1_z83h1w",
-      demoUrl: "https://nare846283.github.io/ri-trovi-complete-home-page-create-using-GSAP-and-scrollTrigger/",
+      demoUrl: "https://ri-trovi-complete-home-page-create-using-gsap-and-nrxqz9go0.vercel.app/",
       githubUrl: "https://github.com/nare846283/ri-trovi-complete-home-page-create-using-GSAP-and-scrollTrigger",
     },
     {
@@ -91,7 +91,7 @@ function projectsData() {
       technologies: "HTML / CSS",
       videoUrl: "https://www.youtube.com/embed/9vf7hsYmkoA?autoplay=1&controls=0&mute=1&loop=1&playlist=9vf7hsYmkoA",
       demoUrl:
-        "https://nare846283.github.io/fylla-web-clone-home-page-design-using-hmtl-and-css/",
+        "https://fylla-web-clone-home-page-design-using-hmtl-and-css.vercel.app/",
       githubUrl: "https://github.com/nare846283/fylla-web-clone-home-page-design-using-hmtl-and-css",
     },
     {
@@ -99,14 +99,14 @@ function projectsData() {
       technologies: "HTML / CSS",
       videoUrl: "https://www.youtube.com/embed/WOOoQ5inU2A?autoplay=1&controls=0&mute=1&loop=1&playlist=WOOoQ5inU2A",
       demoUrl:
-        "https://nare846283.github.io/Vim-Vigour-web-clone-complete-home-page-design-using-html-css/",
+        "https://vim-vigour-web-clone-complete-home-page-design-using-html-css.vercel.app/",
       githubUrl: "https://github.com/nare846283/Vim-Vigour-web-clone-complete-home-page-design-using-html-css",
     },
     {
       name: "Another Web",
       technologies: "HTML / CSS / Js",
       videoUrl: "https://www.youtube.com/embed/-t-DeHeHw2k?autoplay=1&controls=0&mute=1&loop=1&playlist=-t-DeHeHw2k",
-      demoUrl: "https://nare846283.github.io/Another-Created-Studio-Web-Complete-Home-Page-using-html-css-and-js/",
+      demoUrl: "https://another-created-studio-web-complete-home-page-using-eu7ylvzc1.vercel.app/",
       githubUrl: "https://github.com/nare846283/Another-Created-Studio-Web-Complete-Home-Page-using-html-css-and-js",
     },
     // Add other projects similarly
